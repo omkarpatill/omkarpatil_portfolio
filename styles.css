@@ -48,6 +48,7 @@ border-bottom-left-radius: 1rem;
     padding-top: 4rem;
     background-color: var(--secondary-color);
     border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .hero .img-hero{
@@ -60,7 +61,7 @@ border-bottom-left-radius: 1rem;
 .hero .header-text{
     color: var(--primary-color);
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .section h1{
@@ -74,5 +75,42 @@ border-bottom-left-radius: 1rem;
 }
 
 .tech{
+    background-color: white; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    block-size: 10rem;
+}
+.project{
+    background-color: #F9F1F4;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    block-size: 12rem;
+}
+.blog{
+    background-color: white; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    block-size: 12rem;
+
+}
+.section .link-project{
     background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 655px;
+    
+}
+.section .link-blog{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 200px;
+    
 }
