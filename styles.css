@@ -3,14 +3,17 @@
 
 
 :root{
-    --primary-color: #613F75; 
+    --primary-color: #4E0250; 
 }
 :root{
-    --secondary-color: #E5C3D1;
+    --secondary-color: #F9F1F4;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .navigation{
 background-color: var(--primary-color);
@@ -101,7 +104,7 @@ border-bottom-left-radius: 1rem;
     padding: 0.5rem 0.5rem;
     text-decoration: none;
     color: white;
-    margin-left: 655px;
+    margin-left: 616px;
     
 }
 .section .link-blog{
@@ -111,6 +114,41 @@ border-bottom-left-radius: 1rem;
     padding: 0.5rem 0.8rem;
     text-decoration: none;
     color: white;
-    margin-left: 200px;
+    margin-left: 620px;
+    
     
 }
+
+.footer{
+    background-color: var(--primary-color);
+    block-size: 16rem;
+    color: white;
+    border-top-left-radius: 1rem;
+}
+
+.footer .list-footer{
+
+    text-align: right;
+    padding-top: 5rem;
+    padding-right: 3rem;
+}
+
+.footer .footer-listitem{
+    display: inline;
+    padding-left: 4rem;
+    font-size: larger;
+
+}
+
+.footer .header-footer{
+    font-size: large;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+
+
+
+    
+
+
