@@ -1,2 +1,2 @@
-Started dev journey!
+Started my dev journey!
 Personal portfolio in making...

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+:root{
+    --primary-color: #613F75; 
+}
+:root{
+    --secondary-color: #E5C3D1;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation{
+background-color: var(--primary-color);
+block-size: 10rem;
+padding-top: 2rem;
+padding-bottom: 1rem;
+padding-right: 3rem;
+padding-left: 1rem;
+border-bottom-left-radius: 1rem;
+
+
+}
+.navigation .nav-header{
+    color: white;
+    font-size: larger;
+}
+.navigation .nav-inlineitem{
+    display: inline;
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+.navigation .nav-list{
+    text-align: right;
+    padding-top: 5rem;
+    
+}
+
+.navigation .link{
+    text-decoration: none;
+    color: white;
+    }
+
+.hero{
+    padding-top: 4rem;
+    background-color: var(--secondary-color);
+    border-top-left-radius: 1rem;
+}
+
+.hero .img-hero{
+    max-width: 450px;
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.hero .header-text{
+    color: var(--primary-color);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.section .container-centre{
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.tech{
+    background-color: var(--primary-color);
+}
