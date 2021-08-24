@@ -16,7 +16,7 @@ body{
     margin-right: 50px;
 }
 .navigation{
-background-color: var(--primary-color);
+background-image: linear-gradient( to left, var(--primary-color),#94556d);
 block-size: 10rem;
 padding-top: 2rem;
 padding-bottom: 1rem;
@@ -28,7 +28,8 @@ border-bottom-left-radius: 1rem;
 }
 .navigation .nav-header{
     color: white;
-    font-size: larger;
+    font-size: x-large;
+    padding-left: 1rem;
 }
 .navigation .nav-inlineitem{
     display: inline;
@@ -126,8 +127,8 @@ border-bottom-left-radius: 1rem;
 }
 
 .footer{
-    background-color: var(--primary-color);
-    block-size: 16rem;
+    background-image: linear-gradient( to left, var(--primary-color),#94556d);
+    block-size: 13rem;
     color: white;
     border-top-left-radius: 1rem;
 }
@@ -135,7 +136,7 @@ border-bottom-left-radius: 1rem;
 .footer .list-footer{
 
     text-align: right;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-right: 3rem;
 }
 
